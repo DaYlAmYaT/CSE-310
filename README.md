@@ -2,9 +2,7 @@
 
 THis is a Hello World program. It can demonstrate the use of VS Code, Python and GitHub.
 
-{Provide a link to your YouTube demonstration. It should be a one minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+Here is the demonstration: [Software Demo Video](https://youtu.be/LJg1F-0vsWo)
 
 # Development Environment
 
