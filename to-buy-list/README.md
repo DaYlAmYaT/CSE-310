@@ -2,7 +2,7 @@
 
 In this project, it allows users to create a new account or log into their account. And after they logged into their account, they could add or remove items from the to-buy-list or display the list. And all the data they typed will be saved into the the Mongodb, which allows users to get the same list when they log in again.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/bSXv80NUv-g)
 
 # Cloud Database
 
