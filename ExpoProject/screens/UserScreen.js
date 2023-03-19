@@ -8,8 +8,8 @@ function User(props) {
       <Text style={styles.text}>User Screen</Text>
       <TouchableOpacity
         style={styles.buttonContainer}
-        onPress={() => navigation.navigate('Names')}>
-        <Text style={styles.buttonText}>Go to Names Screen</Text>
+        onPress={() => navigation.navigate('CreateAccount')}>
+        <Text style={styles.buttonText}>Go to Create Account Screen</Text>
       </TouchableOpacity>
     </View>
   )

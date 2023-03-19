@@ -1,17 +1,10 @@
 import React from 'react'
 
-import MainStackNavigator from './navigation/MainStackNavigator.js'
-import MainBottomTabNavigator from './navigation/MainBottomTabNavigator.js'
-
 import MainScreen from './screens/MainScreen'
-import HomeScreen from './screens/HomeScreen'
-import NamesScreen from './screens/NamesScreen'
-import SettingScreen from './screens/SettingScreen'
+import CreateAccountSreen from './screens/CreateAccountScreen'
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack'
-
-import { NativeModules } from 'react-native'
 
 const Stack = createStackNavigator()
 
@@ -25,8 +18,7 @@ export default function App() {
           component={MainScreen}
           options={{ headerShown: false }}
         />
-        <Stack.Screen name="Names" component={NamesScreen} />
-        <Stack.Screen name="Setting" component={SettingScreen} />
+        <Stack.Screen name="CreateAccount" component={CreateAccountSreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
